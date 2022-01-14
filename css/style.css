@@ -146,7 +146,7 @@ li{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    padding: 15px;
+
 }
 .gear-cart img{
     width: 80%;
@@ -165,3 +165,21 @@ li{
 }
 
 
+.travel-plan{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.travel-plan .plan-img img{
+    width: 100%;
+}
+.plan-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.plan-text h1{
+    padding-bottom: 20px;
+}
+.plan-text button{
+    width: fit-content;
+}
