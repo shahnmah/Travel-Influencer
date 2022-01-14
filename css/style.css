@@ -43,6 +43,12 @@ a{
     font-size: 17px;
     font-weight: 600;
 }
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
 .main-button{
     font-size: 16px;
     font-weight: 600;
@@ -68,11 +74,7 @@ a{
 .header-part h3{
     color: #10E591;
 }
-.header-part .nav .menu{
-    display: flex;
-}
 .header-part .nav .menu li{
-    list-style: none;
     padding: 8px 18px;
 }
 .header-part .nav .menu li a{
@@ -130,11 +132,36 @@ a{
 
 
 
-
-
-
-
-
-
+/* gear-part css */
+#gear-part .gear-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.travel-gear-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.gear-cart{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+}
+.gear-cart img{
+    width: 80%;
+}
+.ratings{
+    padding: 10px 0 5px 0;
+}
+.ratings li{
+    padding-right: 2px;
+}
+.ratings i{
+    color: #FB8200;
+}
+.ratings .rating-point{
+    margin-left: 10px;
+}
 
 
