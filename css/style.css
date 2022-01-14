@@ -164,6 +164,7 @@ li{
     margin-left: 10px;
 }
 
+/* travel-plan-css */
 
 .travel-plan{
     display: grid;
@@ -182,4 +183,31 @@ li{
 }
 .plan-text button{
     width: fit-content;
+}
+
+
+/* footer css */
+
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 40px 0;
+}
+.footer-part h4{
+    padding-bottom: 20px;
+}
+.footer-part ul{
+    padding-top: 20px;
+}
+.footer-part ul li{
+    padding: 10px 15px;
+    background-color: #10E591;
+    margin-right: 15px;
+    border-radius: 50%;
+    
+}
+.footer-part ul li a{
+    color: #fff;
 }
