@@ -115,6 +115,16 @@ a{
 
 
 
+/* sponsor-part-css  */
+.sponsor-part{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 20px 15px;
+    border-top: 1px solid rgba(34, 34, 34, 0.1);
+    border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+}
 
 
 
