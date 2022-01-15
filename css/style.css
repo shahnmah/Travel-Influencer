@@ -235,3 +235,52 @@ li{
 
 
 
+/* media query css */
+
+@media screen and (max-width: 480px) {
+    .header-part{
+        justify-content: center;
+    }
+    .header-part .nav{
+        display: none;
+    }
+    .banner-part{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .banner-part .banner-text{
+        order: 2;
+        text-align: center;
+        align-items: center;
+    }
+    .sponsor-part{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+
+
+    .travel-gear-part{
+        grid-template-columns: repeat(1,300px);
+    }
+
+
+    .travel-plan{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .travel-plan .plan-text{
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
