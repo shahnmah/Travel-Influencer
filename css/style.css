@@ -35,7 +35,7 @@ h4{
 }
 p{
     font-size: 16px;
-    color: #0f0e0e;
+    color: #2e2c2c;
     line-height: 1.5;
 }
 a{
@@ -62,8 +62,9 @@ li{
 .main-button:hover{
     background-color: transparent;
     color: #10E591;
-    transition: .3s ease-in;
+    transition: .4s linear;
 }
+
 /* header-part-css */
 .header-part{
     display: flex;
@@ -108,13 +109,11 @@ li{
 }
 .banner-img img{
     width: 100%;
-
 }
 .banner-img img:hover{
     transform: rotate(360deg);
-    transition: 3s ease-in;
+    transition: 3s linear;
 }
-
 
 
 /* sponsor-part-css  */
@@ -127,6 +126,7 @@ li{
     border-top: 1px solid rgba(34, 34, 34, 0.1);
     border-bottom: 1px solid rgba(34, 34, 34, 0.1);
 }
+
 
 /* gear-part css */
 #gear-part{
@@ -145,7 +145,6 @@ li{
 .gear-cart{
     display: flex;
     flex-direction: column;
-    /* background-color: aliceblue; */
     padding: 10px;
     margin-bottom: 50px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -178,6 +177,7 @@ li{
     padding: 7px 0;
 }
 
+
 /* travel-plan-css */
 
 .travel-plan{
@@ -198,7 +198,6 @@ li{
 .plan-text button{
     width: fit-content;
 }
-
 
 /* footer css */
 
@@ -235,6 +234,7 @@ li{
 
 
 
+
 /* media query css */
 
 @media screen and (max-width: 1080px){
@@ -258,10 +258,10 @@ li{
         grid-template-columns: repeat(5,1fr);
     }
     .travel-gear-part{
-        grid-template-columns: repeat(3,230px);  
+        grid-template-columns: repeat(3,220px);  
     }
     .travel-gear-part img{ 
-        width: 210px;
+        width: 200px;
     }
 }
 @media screen and (min-width: 661px) and (max-width: 768px){
@@ -298,7 +298,7 @@ li{
     }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (min-width: 481px) and (max-width: 570px){
     .header-part .nav{
         display: none;
     }
@@ -314,10 +314,10 @@ li{
         grid-template-columns: repeat(4,1fr);
     }
     .travel-gear-part{
-        grid-template-columns: repeat(2,220px);  
+        grid-template-columns: repeat(2,210px);  
     }
     .travel-gear-part img{ 
-        width: 200px;
+        width: 190px;
     }
     .gear-cart .gear h3{
         font-size: 24px;
@@ -333,7 +333,6 @@ li{
         align-items: center;
     }
 }
-
 
 @media screen and (max-width: 480px) {
     .header-part{
