@@ -103,7 +103,7 @@ li{
 .banner-text .main-button{
     width: fit-content;
 }
-.banner-text .main-button .button-arrow{
+.main-button .button-arrow{
     margin-left: 10px;
 }
 .banner-img img{
@@ -128,28 +128,39 @@ li{
     border-bottom: 1px solid rgba(34, 34, 34, 0.1);
 }
 
-
-
-
-
 /* gear-part css */
+#gear-part{
+    margin-bottom: 40px;
+}
 #gear-part .gear-heading{
     text-align: center;
     margin-bottom: 50px;
 }
 .travel-gear-part{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3,300px);
+    justify-content: space-evenly;
+
 }
 .gear-cart{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
-
+    /* background-color: aliceblue; */
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+.gear-cart:hover{
+    box-shadow: rgba(149, 157, 165, .5) 0px 8px 24px;
+    transition: .4s ease;
 }
 .gear-cart img{
-    width: 80%;
+    width: 280px;
+    border-radius: 5px;
+}
+.gear-cart h3{
+    padding: 7px 0;
 }
 .ratings{
     padding: 10px 0 5px 0;
@@ -162,6 +173,9 @@ li{
 }
 .ratings .rating-point{
     margin-left: 10px;
+}
+.gear-cart .gear-details{
+    padding: 7px 0;
 }
 
 /* travel-plan-css */
@@ -206,8 +220,18 @@ li{
     background-color: #10E591;
     margin-right: 15px;
     border-radius: 50%;
-    
+    border: 2px solid #10E591;
+}
+.footer-part ul li:hover{
+    background-color: transparent;
+    transition: .4s ease;
+}
+.footer-part ul li:hover a{
+    color: #10E591;
 }
 .footer-part ul li a{
     color: #fff;
 }
+
+
+
