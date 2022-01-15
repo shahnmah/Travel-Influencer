@@ -176,7 +176,14 @@ li{
 .gear-cart .gear-details{
     padding: 7px 0;
 }
-
+.see-more-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.see-more{
+    color: #10E591;
+    margin-right: 5%;
+}
 
 /* travel-plan-css */
 
@@ -215,7 +222,7 @@ li{
     padding-top: 20px;
 }
 .footer-part ul li{
-    padding: 10px 15px;
+    padding: 7px 10px;
     background-color: #10E591;
     margin-right: 15px;
     border-radius: 50%;
@@ -364,6 +371,9 @@ li{
     .travel-plan .plan-text{
         text-align: center;
         align-items: center;
+    }
+    .see-more{
+        margin-right: 10%;
     }
 }
 
